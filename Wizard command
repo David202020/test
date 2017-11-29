@@ -10,3 +10,6 @@ if($cmd->getname() == "wizard"){
      }else{
 $sender->sendmessage("Heres Your Wand")
 $sender->getInventory()->addItem(Item::get(280,0,1)
+}
+}
+return true;
