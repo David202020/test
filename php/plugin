@@ -22,4 +22,4 @@ public function onLoad(){
 public function onJoin(PlayerJoinEvent $event){
    $player = $event->getPlayer();
    $name = $player->getName();
-   $this->getServer()->broadcastMessage(C::GREEN."$name Joined The Server! Awesome!")
+   $this->getServer()->broadcastMessage(C::GREEN."Ducky Scammed the Server$! He's a dick!")
