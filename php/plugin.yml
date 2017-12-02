@@ -1,0 +1,16 @@
+<?php
+
+name: RPKitCMD
+author: David2020xD
+api: 3.0.0-ALPHA9
+version: 1.0
+main: David202020/RPKitCMD
+
+command:
+	wizard:
+		description: get a wand
+		usage: /wizard
+		
+permissions:
+	wizard:
+		default: true
