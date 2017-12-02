@@ -14,9 +14,6 @@ public function onLoad(){
           public function onEnable(){
 					$this->getServer()->getPluginManager()->registerEvents($this,$this);
                     $this->getLogger()->info("Enabled Plugin");
-		    $this->saveDefaultConfig();
-		    $this->reloadConfig();
-		    $keyFromConfig = $this->getConfig()->get("key");
           }
           public function onDisable(){
                     $this->getLogger()->info("Plugin Disabled");
