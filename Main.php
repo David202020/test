@@ -7,6 +7,8 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as C;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
 class Main extends PluginBase implements Listener{
 public function onLoad(){
                     $this->getLogger()->info("Plugin Loading");
