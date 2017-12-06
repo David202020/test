@@ -1,5 +1,9 @@
 <?php
-namespace David202020;
+name: RPKitCMD;
+author: David202020;
+api:3.0.0-ALPHA9
+version:1.0
+main:RPKitCMD/RPKitCMD
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
@@ -12,7 +16,7 @@ public function onLoad(){
                     $this->getLogger()->info("Plugin Loading");
           }
           public function onEnable(){
-					$this->getServer()->getPluginManager()->registerEvents($this,$this);
+		    $this->getServer()->getPluginManager()->registerEvents($this,$this);
                     $this->getLogger()->info("Enabled Plugin");
           }
           public function onDisable(){
