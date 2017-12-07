@@ -1,6 +1,6 @@
 <?php
-name:RPKitCMD
-author:David2020xD
+name: RPKitCMD
+author: David2020xD
 api:3.0.0-ALPHA10
 version:1.0
 main:Main\Main
